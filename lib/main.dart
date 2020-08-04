@@ -28,7 +28,7 @@ class _InputPageState extends State<InputPage> {
         title: Text('BMI CALCULATOR'),
       ),
       body: Center(
-        child: Text('Body Text1'),
+        child: Text('Body Text2'),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
