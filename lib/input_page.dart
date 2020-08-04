@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class InputPage extends StatefulWidget {
@@ -12,12 +13,22 @@ class _InputPageState extends State<InputPage> {
       appBar: AppBar(
         title: Text('BMI CALCULATOR'),
       ),
-      body: Center(
-        child: Text('Body Text3'),
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
+      body: Column(
+        children: <Widget>[
+          Expanded(child: null),
+          Expanded(child: null),
+          Expanded(child: null),
+        ],
       ),
     );
   }
 }
+
+
+Container(
+margin: EdgeInsets.all(15.0),
+decoration: BoxDecoration(
+color: Color(0xFF1D1F33),
+borderRadius: BorderRadius.circular(10.0),
+),
+)
