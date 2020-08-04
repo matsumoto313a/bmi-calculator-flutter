@@ -15,9 +15,63 @@ class _InputPageState extends State<InputPage> {
       ),
       body: Column(
         children: <Widget>[
-          Expanded(child: null),
-          Expanded(child: null),
-          Expanded(child: null),
+          Expanded(
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(15.0),
+                    decoration: BoxDecoration(
+                      color: Color(0xFF1D1F33),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(15.0),
+                    decoration: BoxDecoration(
+                      color: Color(0xFF1D1F33),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: Container(
+              margin: EdgeInsets.all(15.0),
+              decoration: BoxDecoration(
+                color: Color(0xFF1D1F33),
+                borderRadius: BorderRadius.circular(10.0),
+              ),
+            ),
+          ),
+          Expanded(
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(15.0),
+                    decoration: BoxDecoration(
+                      color: Color(0xFF1D1F33),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    margin: EdgeInsets.all(15.0),
+                    decoration: BoxDecoration(
+                      color: Color(0xFF1D1F33),
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
@@ -25,10 +79,3 @@ class _InputPageState extends State<InputPage> {
 }
 
 
-Container(
-margin: EdgeInsets.all(15.0),
-decoration: BoxDecoration(
-color: Color(0xFF1D1F33),
-borderRadius: BorderRadius.circular(10.0),
-),
-)
